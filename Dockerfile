@@ -1,4 +1,6 @@
-FROM acspri/limesurvey:latest
+ARG TAG=latest
+FROM acspri/limesurvey:${TAG}
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
