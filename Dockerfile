@@ -1,4 +1,4 @@
-ARG TAG=latest
+ARG TAG=4.3.2
 FROM acspri/limesurvey:${TAG}
 
 ENV DEBIAN_FRONTEND=noninteractive
